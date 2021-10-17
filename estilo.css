@@ -208,11 +208,11 @@ border-collapse: collapse;
 
 .galeria{
   display: grid;
+  grid-template-columns: auto auto auto;
   margin: 0 auto;
   max-width: 1500px;
   min-height: 90vh;
   background-color: white;
-  grid-template-columns: auto auto auto;
   border-style: inset
 }
 
@@ -246,5 +246,20 @@ border-collapse: collapse;
   height: 30px;
   font-family: 'Roboto Condensed', sans-serif;
 
+}
+
+.TituloHistoria{
+  margin: 40px;
+  text-align: center;
+}
+
+.Desplegable1{
+  text-align: center;
+  }
+.btn{
+  background-color: brown;
+  margin: 25px;
+  font-family: 'Roboto Condensed', sans-serif;
+}
 }
 
